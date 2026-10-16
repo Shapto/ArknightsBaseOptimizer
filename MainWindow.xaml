@@ -1,0 +1,43 @@
+﻿<Window x:Class="ArknightsBaseOptimizer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Arknights Base Optimizer" Height="950" Width="1500" Background="#1E1E22">
+    <Window.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Padding" Value="16,6"/>
+            <Setter Property="Margin" Value="0,0,8,0"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Background" Value="#3A3A42"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="BorderBrush" Value="#55555F"/>
+        </Style>
+    </Window.Resources>
+
+    <DockPanel Margin="12">
+        <StackPanel DockPanel.Dock="Top" Orientation="Horizontal" Margin="5,0,0,8">
+            <Button x:Name="BalancedButton" Content="Balanced" Tag="Balanced" Click="GoalButton_Click"/>
+            <Button x:Name="LmdButton" Content="LMD" Tag="Lmd" Click="GoalButton_Click"/>
+            <Button x:Name="ExperienceButton" Content="EXP" Tag="Experience" Click="GoalButton_Click"/>
+            <Button x:Name="ShiftButton" Content="Showing Shift A" Margin="24,0,0,0" Click="ShiftButton_Click"/>
+            <Button x:Name="PromotionButton" Content="Current levels" Margin="24,0,0,0" Click="PromotionButton_Click"/>
+        </StackPanel>
+        <TextBlock x:Name="SummaryText" DockPanel.Dock="Top" Foreground="White" FontSize="16" Margin="5,0,0,8"/>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition Width="1.2*"/>
+                <ColumnDefinition Width="0.6*"/>
+            </Grid.ColumnDefinitions>
+
+            <ContentControl x:Name="ControlCenterSlot" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3"/>
+            <UniformGrid x:Name="ProductionGrid" Grid.Row="1" Grid.Column="0" Rows="3" Columns="3"/>
+            <UniformGrid x:Name="DormitoryColumn" Grid.Row="1" Grid.Column="1" Rows="4" Columns="1"/>
+            <UniformGrid x:Name="SideRoomColumn" Grid.Row="1" Grid.Column="2" Rows="4" Columns="1"/>
+        </Grid>
+    </DockPanel>
+</Window>

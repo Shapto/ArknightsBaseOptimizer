@@ -1,0 +1,580 @@
+{
+  "source": "Arknights Base Combo Guide (Google Sheet), last updated 2026-10-09",
+  "facilityConstants": {
+    "level3FactoryOrTradingPost": {
+      "productivityBonus": 3,
+      "moraleDrain": -0.1
+    },
+    "level2FactoryOrTradingPost": {
+      "productivityBonus": 2,
+      "moraleDrain": -0.05
+    },
+    "level1FactoryOrTradingPost": {
+      "productivityBonus": 1,
+      "moraleDrain": 0
+    },
+    "level5ControlCenterBaseMoraleDrain": -0.25,
+    "powerPlantInnateDroneRecovery": 5,
+    "droneRecoveryToProductivity": 0.5,
+    "baseMoraleDrainPerHour": 1.0
+  },
+  "goldOrderProbabilitiesLevel3": {
+    "none": {
+      "fourGold": 0.2,
+      "threeGold": 0.5,
+      "twoGold": 0.3
+    },
+    "slightIncrease": {
+      "fourGold": 0.55,
+      "threeGold": 0.3,
+      "twoGold": 0.15,
+      "rampHours": 3
+    },
+    "slightIncreaseTwice": {
+      "fourGold": 0.65,
+      "threeGold": 0.22,
+      "twoGold": 0.13,
+      "rampHours": 3
+    },
+    "increase": {
+      "fourGold": 0.85,
+      "threeGold": 0.1,
+      "twoGold": 0.05,
+      "rampHours": 5
+    }
+  },
+  "teams": [
+    {
+      "name": "Abyssal Hunters",
+      "goal": [
+        "EXP",
+        "Gold"
+      ],
+      "members": [
+        {
+          "name": "Gladiia",
+          "room": "Control",
+          "minElite": 2,
+          "minLevel": 1
+        },
+        {
+          "name": "Ulpianus",
+          "room": "Manufacture",
+          "minElite": 0,
+          "minLevel": 1
+        },
+        {
+          "name": "Specter",
+          "room": "Manufacture",
+          "minElite": 0,
+          "minLevel": 1
+        },
+        {
+          "name": "Andreana",
+          "room": "Manufacture",
+          "minElite": 0,
+          "minLevel": 1
+        }
+      ],
+      "effect": {
+        "room": "Manufacture",
+        "productivity": 90,
+        "formula": "Any"
+      },
+      "notes": "Gladiia in CC gives each Abyssal Hunter +10% per Abyssal Hunter in the same Factory (max 90% per Factory). Skadi the Corrupting Heart and Underflow are NOT Abyssal Hunters. Gladiia gains +0.5 self morale drain per working Abyssal Hunter, so the team only lasts ~7.5h without help.",
+      "availableNow": true,
+      "missing": []
+    },
+    {
+      "name": "Mizuki Standard",
+      "goal": [
+        "EXP",
+        "Gold"
+      ],
+      "members": [
+        {
+          "name": "Mizuki",
+          "room": "Manufacture",
+          "minElite": 2,
+          "minLevel": 1
+        },
+        {
+          "name": "Jessica",
+          "room": "Manufacture",
+          "minElite": 0,
+          "minLevel": 1
+        },
+        {
+          "name": "Vanilla",
+          "room": "Manufacture",
+          "minElite": 0,
+          "minLevel": 1
+        }
+      ],
+      "substitutes": [
+        {
+          "name": "Perfumer",
+          "room": "Manufacture",
+          "minElite": 1,
+          "minLevel": 1
+        },
+        {
+          "name": "Roberta",
+          "room": "Manufacture",
+          "minElite": 1,
+          "minLevel": 1
+        },
+        {
+          "name": "Steward",
+          "room": "Manufacture",
+          "minElite": 1,
+          "minLevel": 1
+        }
+      ],
+      "effect": {
+        "room": "Manufacture",
+        "productivity": 90,
+        "formula": "Any"
+      },
+      "notes": "Mizuki +5% per Standardization skill in the same Factory; each member ends at 30%.",
+      "availableNow": true,
+      "missing": []
+    },
+    {
+      "name": "Tragodia + Executor (EXP)",
+      "goal": [
+        "EXP"
+      ],
+      "members": [
+        {
+          "name": "Tragodia",
+          "room": "Manufacture",
+          "minElite": 2,
+          "minLevel": 1
+        },
+        {
+          "name": "Executor the Ex Foedere",
+          "room": "Manufacture",
+          "minElite": 2,
+          "minLevel": 1
+        }
+      ],
+      "effect": {
+        "room": "Manufacture",
+        "productivity": 65,
+        "formula": "BattleRecord"
+      },
+      "notes": "Tragodia +35% EXP (-0.25 self MD); Executor E2 +30% EXP with Tragodia in the same Factory, +4 EXP capacity. Add a third EXP worker (Vigna +30%, Crackborne +35%).",
+      "availableNow": true,
+      "missing": []
+    },
+    {
+      "name": "Metalwork Gold",
+      "goal": [
+        "Gold"
+      ],
+      "members": [
+        {
+          "name": "Gravel",
+          "room": "Manufacture",
+          "minElite": 1,
+          "minLevel": 1
+        },
+        {
+          "name": "Bryophyta",
+          "room": "Manufacture",
+          "minElite": 0,
+          "minLevel": 1
+        },
+        {
+          "name": "Haze",
+          "room": "Manufacture",
+          "minElite": 0,
+          "minLevel": 1
+        }
+      ],
+      "substitutes": [
+        {
+          "name": "Spot",
+          "room": "Manufacture",
+          "minElite": 1,
+          "minLevel": 1
+        }
+      ],
+      "effect": {
+        "room": "Manufacture",
+        "productivity": 95,
+        "formula": "PreciousMetal"
+      },
+      "notes": "35% + 30% + 30%. Bryophyta at E2 adds +5% per Metalwork skill (would make it ~110%).",
+      "availableNow": true,
+      "missing": []
+    },
+    {
+      "name": "Jaye + Texas + Lappland (E0 Jaye)",
+      "goal": [
+        "LMD"
+      ],
+      "members": [
+        {
+          "name": "Jaye",
+          "room": "Trading",
+          "minElite": 0,
+          "minLevel": 1
+        },
+        {
+          "name": "Texas",
+          "room": "Trading",
+          "minElite": 0,
+          "minLevel": 1
+        },
+        {
+          "name": "Lappland",
+          "room": "Trading",
+          "minElite": 2,
+          "minLevel": 1
+        }
+      ],
+      "effect": {
+        "room": "Trading",
+        "productivity": 105.2,
+        "formula": "Any"
+      },
+      "notes": "Peak +121%, 12h average +105.2%. Loses productivity as orders pile up; collect often.",
+      "availableNow": true,
+      "missing": []
+    },
+    {
+      "name": "Texas + Lappland pair",
+      "goal": [
+        "LMD"
+      ],
+      "members": [
+        {
+          "name": "Texas",
+          "room": "Trading",
+          "minElite": 0,
+          "minLevel": 1
+        },
+        {
+          "name": "Lappland",
+          "room": "Trading",
+          "minElite": 2,
+          "minLevel": 1
+        }
+      ],
+      "effect": {
+        "room": "Trading",
+        "productivity": 65,
+        "formula": "Any"
+      },
+      "notes": "+65% and +4 order limit; add any 30% worker (Gummy, Catapult, Midnight, Ambriel, Mousse, Yato) for ~95%.",
+      "availableNow": true,
+      "missing": []
+    },
+    {
+      "name": "Closure special orders",
+      "goal": [
+        "LMD"
+      ],
+      "members": [
+        {
+          "name": "Closure",
+          "room": "Trading",
+          "minElite": 2,
+          "minLevel": 1
+        }
+      ],
+      "effect": {
+        "room": "Trading",
+        "productivity": 10,
+        "formula": "Any",
+        "lmdMultiplier": 1.168
+      },
+      "notes": "E2: all LMD orders become Closure orders (144 min, 1200 LMD, 2 Gold), about 17% more LMD per hour than the normal lvl 3 order mix. Weaker than Shamare team; pair with high-% partners.",
+      "availableNow": true,
+      "missing": []
+    },
+    {
+      "name": "Hoederer + Ines",
+      "goal": [
+        "LMD"
+      ],
+      "members": [
+        {
+          "name": "Hoederer",
+          "room": "Trading",
+          "minElite": 0,
+          "minLevel": 1
+        },
+        {
+          "name": "Ines",
+          "room": "Meeting",
+          "minElite": 2,
+          "minLevel": 1
+        }
+      ],
+      "effect": {
+        "room": "Trading",
+        "productivity": 30,
+        "formula": "Any"
+      },
+      "notes": "Hoederer +25% (E2 +30%), +5% while Ines works anywhere except dorm. Ines E2 in Reception gives +20% ramping to +30%.",
+      "availableNow": true,
+      "missing": []
+    },
+    {
+      "name": "Underflow + Ulpianus",
+      "goal": [
+        "LMD"
+      ],
+      "members": [
+        {
+          "name": "Underflow",
+          "room": "Trading",
+          "minElite": 0,
+          "minLevel": 1
+        },
+        {
+          "name": "Ulpianus",
+          "room": "Manufacture",
+          "minElite": 0,
+          "minLevel": 1
+        }
+      ],
+      "effect": {
+        "room": "Trading",
+        "productivity": 30,
+        "formula": "Any"
+      },
+      "notes": "Underflow +25% (E2 +30%), +5% (E2 +10%) while Ulpianus is in the base. Ulpianus can work in the Abyssal Hunter Factory at the same time.",
+      "availableNow": true,
+      "missing": []
+    },
+    {
+      "name": "Kichisei three-person TP",
+      "goal": [
+        "LMD"
+      ],
+      "members": [
+        {
+          "name": "Kichisei",
+          "room": "Trading",
+          "minElite": 0,
+          "minLevel": 1
+        }
+      ],
+      "effect": {
+        "room": "Trading",
+        "productivity": 20,
+        "formula": "Any"
+      },
+      "notes": "E0: +10% per other working operator in the TP (E2: +20%).",
+      "availableNow": true,
+      "missing": []
+    },
+    {
+      "name": "Młynar Smileys",
+      "goal": [
+        "Morale"
+      ],
+      "members": [
+        {
+          "name": "Młynar",
+          "room": "Control",
+          "minElite": 2,
+          "minLevel": 1
+        },
+        {
+          "name": "Flametail",
+          "room": "Control",
+          "minElite": 0,
+          "minLevel": 1
+        },
+        {
+          "name": "Mon3tr",
+          "room": "Control",
+          "minElite": 0,
+          "minLevel": 1
+        },
+        {
+          "name": "Raidian",
+          "room": "Control",
+          "minElite": 0,
+          "minLevel": 1
+        },
+        {
+          "name": "Heavyrain",
+          "room": "Control",
+          "minElite": 0,
+          "minLevel": 1
+        }
+      ],
+      "substitutes": [
+        {
+          "name": "Coldshot",
+          "room": "Control",
+          "minElite": 0,
+          "minLevel": 1
+        },
+        {
+          "name": "Scavenger",
+          "room": "Control",
+          "minElite": 0,
+          "minLevel": 1
+        },
+        {
+          "name": "Dobermann",
+          "room": "Control",
+          "minElite": 0,
+          "minLevel": 1
+        },
+        {
+          "name": "Closure",
+          "room": "Control",
+          "minElite": 0,
+          "minLevel": 1
+        }
+      ],
+      "effect": {
+        "room": "Control",
+        "moraleDrainAllFacilities": -0.25,
+        "moraleDrainPowerMeetingHire": -0.35
+      },
+      "notes": "Młynar E2 copies every -0.05 'Smiley' CC skill to FAC, TP, PP, RR and HR. Uses the whole CC, so no Amiya/Kal'tsit buffs; better for low-effort rotations than max output.",
+      "availableNow": true,
+      "missing": []
+    },
+    {
+      "name": "Trading/Factory CC buffers",
+      "goal": [
+        "LMD",
+        "EXP",
+        "Gold"
+      ],
+      "members": [
+        {
+          "name": "Amiya",
+          "room": "Control",
+          "minElite": 0,
+          "minLevel": 1
+        },
+        {
+          "name": "Kal'tsit",
+          "room": "Control",
+          "minElite": 2,
+          "minLevel": 1
+        }
+      ],
+      "substitutes": [
+        {
+          "name": "Paprika",
+          "room": "Control",
+          "minElite": 0,
+          "minLevel": 1
+        },
+        {
+          "name": "Wang",
+          "room": "Control",
+          "minElite": 0,
+          "minLevel": 1
+        }
+      ],
+      "effect": {
+        "room": "Control",
+        "tradingAll": 7,
+        "factoryAll": 2
+      },
+      "notes": "Only the highest TP buff and highest FAC buff count. Wang gives +7% TP in 243 (TP+PP >= FAC), so he duplicates Amiya. Hoshiguma the Breacher's +3% FAC needs another Lungmen Guard Department operator in CC.",
+      "availableNow": true,
+      "missing": []
+    },
+    {
+      "name": "Rhodes Island (partial)",
+      "goal": [
+        "LMD"
+      ],
+      "members": [
+        {
+          "name": "Amiya",
+          "room": "Control",
+          "minElite": 0,
+          "minLevel": 1
+        },
+        {
+          "name": "Civilight Eterna",
+          "room": "Control",
+          "minElite": 2,
+          "minLevel": 1
+        },
+        {
+          "name": "Ines",
+          "room": "Meeting",
+          "minElite": 2,
+          "minLevel": 1
+        },
+        {
+          "name": "Hoederer",
+          "room": "Trading",
+          "minElite": 0,
+          "minLevel": 1
+        }
+      ],
+      "effect": {
+        "room": "Control",
+        "tradingAll": 7
+      },
+      "notes": "Civilight Eterna E2 with Amiya: -0.1 MD to both, +15% Reception. Full team needs Wiš'adel and W (not owned).",
+      "availableNow": true,
+      "missing": []
+    },
+    {
+      "name": "Muelsyse Rhine Lab power",
+      "goal": [
+        "Power"
+      ],
+      "members": [
+        {
+          "name": "Muelsyse",
+          "room": "Power",
+          "minElite": 2,
+          "minLevel": 1
+        }
+      ],
+      "effect": {
+        "room": "Power",
+        "droneRecovery": 22
+      },
+      "notes": "+10% plus +3% per Rhine Lab operator in the base (not dorms), max 5. You own Ptilopsis, Mayer, Astgenne and Saria (Silence the Paradigmatic and Astgenne the Lightchaser count as Alters, not Rhine Lab).",
+      "availableNow": true,
+      "missing": []
+    },
+    {
+      "name": "Elite Operators",
+      "goal": [
+        "Hire"
+      ],
+      "members": [
+        {
+          "name": "Kal'tsit Esperanta",
+          "room": "Hire",
+          "minElite": 2,
+          "minLevel": 1
+        },
+        {
+          "name": "Raidian",
+          "room": "Control",
+          "minElite": 0,
+          "minLevel": 1
+        }
+      ],
+      "effect": {
+        "room": "Hire",
+        "hireSpeed": 38
+      },
+      "notes": "+30% plus +4% per facility with an Elite Operator (max 5). Raidian, Logos count; Mantra (not owned) is the TP half of this team.",
+      "availableNow": true,
+      "missing": []
+    }
+  ]
+}

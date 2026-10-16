@@ -1,0 +1,1322 @@
+[
+  {
+    "name": "Raidian",
+    "rarity": 6,
+    "elite": 2,
+    "level": 74
+  },
+  {
+    "name": "Logos",
+    "rarity": 6,
+    "elite": 2,
+    "level": 60
+  },
+  {
+    "name": "Gladiia",
+    "rarity": 6,
+    "elite": 2,
+    "level": 60
+  },
+  {
+    "name": "Executor the Ex Foedere",
+    "rarity": 6,
+    "elite": 2,
+    "level": 60
+  },
+  {
+    "name": "Kal'tsit",
+    "rarity": 6,
+    "elite": 2,
+    "level": 60
+  },
+  {
+    "name": "Wang",
+    "rarity": 6,
+    "elite": 2,
+    "level": 60
+  },
+  {
+    "name": "Bagpipe",
+    "rarity": 6,
+    "elite": 2,
+    "level": 1
+  },
+  {
+    "name": "Ines",
+    "rarity": 6,
+    "elite": 2,
+    "level": 1
+  },
+  {
+    "name": "Młynar",
+    "rarity": 6,
+    "elite": 2,
+    "level": 1
+  },
+  {
+    "name": "Hoshiguma the Breacher",
+    "rarity": 6,
+    "elite": 2,
+    "level": 1
+  },
+  {
+    "name": "Lemuen",
+    "rarity": 6,
+    "elite": 2,
+    "level": 1
+  },
+  {
+    "name": "Closure",
+    "rarity": 6,
+    "elite": 2,
+    "level": 1
+  },
+  {
+    "name": "Muelsyse",
+    "rarity": 6,
+    "elite": 2,
+    "level": 1
+  },
+  {
+    "name": "Ulpianus",
+    "rarity": 6,
+    "elite": 2,
+    "level": 1
+  },
+  {
+    "name": "Saria",
+    "rarity": 6,
+    "elite": 2,
+    "level": 1
+  },
+  {
+    "name": "Goldenglow",
+    "rarity": 6,
+    "elite": 2,
+    "level": 1
+  },
+  {
+    "name": "Necrass",
+    "rarity": 6,
+    "elite": 2,
+    "level": 1
+  },
+  {
+    "name": "Kal'tsit Esperanta",
+    "rarity": 6,
+    "elite": 2,
+    "level": 1
+  },
+  {
+    "name": "Reed the Flame Shadow",
+    "rarity": 6,
+    "elite": 2,
+    "level": 1
+  },
+  {
+    "name": "Haruka",
+    "rarity": 6,
+    "elite": 2,
+    "level": 1
+  },
+  {
+    "name": "Tragodia",
+    "rarity": 6,
+    "elite": 2,
+    "level": 1
+  },
+  {
+    "name": "Exusiai the New Covenant",
+    "rarity": 6,
+    "elite": 2,
+    "level": 1
+  },
+  {
+    "name": "Phantom",
+    "rarity": 6,
+    "elite": 2,
+    "level": 1
+  },
+  {
+    "name": "Nymph",
+    "rarity": 6,
+    "elite": 2,
+    "level": 1
+  },
+  {
+    "name": "Lumen",
+    "rarity": 6,
+    "elite": 2,
+    "level": 1
+  },
+  {
+    "name": "Civilight Eterna",
+    "rarity": 6,
+    "elite": 2,
+    "level": 1
+  },
+  {
+    "name": "Skadi the Corrupting Heart",
+    "rarity": 6,
+    "elite": 2,
+    "level": 1
+  },
+  {
+    "name": "Virtuosa",
+    "rarity": 6,
+    "elite": 2,
+    "level": 1
+  },
+  {
+    "name": "Mizuki",
+    "rarity": 6,
+    "elite": 2,
+    "level": 1
+  },
+  {
+    "name": "Lessing",
+    "rarity": 6,
+    "elite": 1,
+    "level": 50
+  },
+  {
+    "name": "Archetto",
+    "rarity": 6,
+    "elite": 1,
+    "level": 40
+  },
+  {
+    "name": "Sankta Miksaparato",
+    "rarity": 6,
+    "elite": 1,
+    "level": 1
+  },
+  {
+    "name": "Flametail",
+    "rarity": 6,
+    "elite": 0,
+    "level": 50
+  },
+  {
+    "name": "Mon3tr",
+    "rarity": 6,
+    "elite": 0,
+    "level": 50
+  },
+  {
+    "name": "Zuo Le",
+    "rarity": 6,
+    "elite": 0,
+    "level": 50
+  },
+  {
+    "name": "Ho'olheyak",
+    "rarity": 6,
+    "elite": 0,
+    "level": 40
+  },
+  {
+    "name": "Saga",
+    "rarity": 6,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Hoederer",
+    "rarity": 6,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Eyjafjalla",
+    "rarity": 6,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Silence the Paradigmatic",
+    "rarity": 6,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Lee",
+    "rarity": 6,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Vigil",
+    "rarity": 6,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Ceobe",
+    "rarity": 6,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Astgenne the Lightchaser",
+    "rarity": 6,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Crownslayer",
+    "rarity": 6,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Amiya",
+    "rarity": 5,
+    "elite": 2,
+    "level": 80
+  },
+  {
+    "name": "Specter",
+    "rarity": 5,
+    "elite": 2,
+    "level": 60
+  },
+  {
+    "name": "Lappland",
+    "rarity": 5,
+    "elite": 2,
+    "level": 1
+  },
+  {
+    "name": "Gracebearer",
+    "rarity": 5,
+    "elite": 1,
+    "level": 70
+  },
+  {
+    "name": "Mulberry",
+    "rarity": 5,
+    "elite": 1,
+    "level": 70
+  },
+  {
+    "name": "Andreana",
+    "rarity": 5,
+    "elite": 1,
+    "level": 70
+  },
+  {
+    "name": "Matsukiri",
+    "rarity": 5,
+    "elite": 1,
+    "level": 60
+  },
+  {
+    "name": "Firewhistle",
+    "rarity": 5,
+    "elite": 1,
+    "level": 60
+  },
+  {
+    "name": "Whisperain",
+    "rarity": 5,
+    "elite": 1,
+    "level": 60
+  },
+  {
+    "name": "Cantabile",
+    "rarity": 5,
+    "elite": 1,
+    "level": 60
+  },
+  {
+    "name": "Wanqing",
+    "rarity": 5,
+    "elite": 1,
+    "level": 60
+  },
+  {
+    "name": "Ptilopsis",
+    "rarity": 5,
+    "elite": 1,
+    "level": 60
+  },
+  {
+    "name": "Bena",
+    "rarity": 5,
+    "elite": 1,
+    "level": 50
+  },
+  {
+    "name": "Fang the Fire-Sharpened",
+    "rarity": 5,
+    "elite": 1,
+    "level": 50
+  },
+  {
+    "name": "Ashlock",
+    "rarity": 5,
+    "elite": 1,
+    "level": 50
+  },
+  {
+    "name": "Santalla",
+    "rarity": 5,
+    "elite": 1,
+    "level": 30
+  },
+  {
+    "name": "Pramanix",
+    "rarity": 5,
+    "elite": 1,
+    "level": 30
+  },
+  {
+    "name": "Cliffheart",
+    "rarity": 5,
+    "elite": 1,
+    "level": 1
+  },
+  {
+    "name": "Heavyrain",
+    "rarity": 5,
+    "elite": 1,
+    "level": 1
+  },
+  {
+    "name": "Bassline",
+    "rarity": 5,
+    "elite": 0,
+    "level": 21
+  },
+  {
+    "name": "Mitm",
+    "rarity": 5,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Puzzle",
+    "rarity": 5,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Surfer",
+    "rarity": 5,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Zima",
+    "rarity": 5,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Dagda",
+    "rarity": 5,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Indra",
+    "rarity": 5,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Odda",
+    "rarity": 5,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Grani",
+    "rarity": 5,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Poncirus",
+    "rarity": 5,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Reed",
+    "rarity": 5,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Texas",
+    "rarity": 5,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Bryophyta",
+    "rarity": 5,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Hadiya",
+    "rarity": 5,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Morgan",
+    "rarity": 5,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Savage",
+    "rarity": 5,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Sideroca",
+    "rarity": 5,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Whislash",
+    "rarity": 5,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Cement",
+    "rarity": 5,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Czerny",
+    "rarity": 5,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Underflow",
+    "rarity": 5,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Brigid",
+    "rarity": 5,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Ju",
+    "rarity": 5,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Skybox",
+    "rarity": 5,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Tequila",
+    "rarity": 5,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Bison",
+    "rarity": 5,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Crackborne",
+    "rarity": 5,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Philae",
+    "rarity": 5,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Vulcan",
+    "rarity": 5,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Coldshot",
+    "rarity": 5,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Kichisei",
+    "rarity": 5,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Snow Hunter",
+    "rarity": 5,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Aroma",
+    "rarity": 5,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Delphine",
+    "rarity": 5,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Harmonie",
+    "rarity": 5,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Lava the Purgatory",
+    "rarity": 5,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Miss.Christine",
+    "rarity": 5,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Tomimi",
+    "rarity": 5,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Breeze",
+    "rarity": 5,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Folinic",
+    "rarity": 5,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Astgenne",
+    "rarity": 5,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Diamante",
+    "rarity": 5,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Iris",
+    "rarity": 5,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Minimalist",
+    "rarity": 5,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Rockrock",
+    "rarity": 5,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Warmy",
+    "rarity": 5,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Ceylon",
+    "rarity": 5,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Hibiscus the Purifier",
+    "rarity": 5,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Honeyberry",
+    "rarity": 5,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Papyrus",
+    "rarity": 5,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Taraxacum",
+    "rarity": 5,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Botani",
+    "rarity": 5,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Heidi",
+    "rarity": 5,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Mayer",
+    "rarity": 5,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Quercus",
+    "rarity": 5,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Almond",
+    "rarity": 5,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Paprika",
+    "rarity": 5,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Rose Salt",
+    "rarity": 5,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Bobbing",
+    "rarity": 5,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Grain Buds",
+    "rarity": 5,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Istina",
+    "rarity": 5,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Perfumer the Distilled",
+    "rarity": 5,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Windflit",
+    "rarity": 5,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Enforcer",
+    "rarity": 5,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Kafka",
+    "rarity": 5,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Robin",
+    "rarity": 5,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Spuria",
+    "rarity": 5,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Waai Fu",
+    "rarity": 5,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Mr. Nothing",
+    "rarity": 5,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Snowsant",
+    "rarity": 5,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Tippi",
+    "rarity": 5,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Vigna",
+    "rarity": 4,
+    "elite": 1,
+    "level": 60
+  },
+  {
+    "name": "Gummy",
+    "rarity": 4,
+    "elite": 1,
+    "level": 60
+  },
+  {
+    "name": "Totter",
+    "rarity": 4,
+    "elite": 1,
+    "level": 60
+  },
+  {
+    "name": "Gavial",
+    "rarity": 4,
+    "elite": 1,
+    "level": 60
+  },
+  {
+    "name": "Myrtle",
+    "rarity": 4,
+    "elite": 1,
+    "level": 60
+  },
+  {
+    "name": "Humus",
+    "rarity": 4,
+    "elite": 1,
+    "level": 60
+  },
+  {
+    "name": "Ambriel",
+    "rarity": 4,
+    "elite": 1,
+    "level": 60
+  },
+  {
+    "name": "Click",
+    "rarity": 4,
+    "elite": 1,
+    "level": 60
+  },
+  {
+    "name": "Deepcolor",
+    "rarity": 4,
+    "elite": 1,
+    "level": 60
+  },
+  {
+    "name": "Podenco",
+    "rarity": 4,
+    "elite": 1,
+    "level": 60
+  },
+  {
+    "name": "Ethan",
+    "rarity": 4,
+    "elite": 1,
+    "level": 60
+  },
+  {
+    "name": "Contrail",
+    "rarity": 4,
+    "elite": 1,
+    "level": 60
+  },
+  {
+    "name": "Sussurro",
+    "rarity": 4,
+    "elite": 1,
+    "level": 1
+  },
+  {
+    "name": "Perfumer",
+    "rarity": 4,
+    "elite": 1,
+    "level": 1
+  },
+  {
+    "name": "Gravel",
+    "rarity": 4,
+    "elite": 1,
+    "level": 1
+  },
+  {
+    "name": "Matoimaru",
+    "rarity": 4,
+    "elite": 0,
+    "level": 45
+  },
+  {
+    "name": "Gitano",
+    "rarity": 4,
+    "elite": 0,
+    "level": 40
+  },
+  {
+    "name": "Courier",
+    "rarity": 4,
+    "elite": 0,
+    "level": 40
+  },
+  {
+    "name": "Shaw",
+    "rarity": 4,
+    "elite": 0,
+    "level": 30
+  },
+  {
+    "name": "Jessica",
+    "rarity": 4,
+    "elite": 0,
+    "level": 10
+  },
+  {
+    "name": "Earthspirit",
+    "rarity": 4,
+    "elite": 0,
+    "level": 4
+  },
+  {
+    "name": "Beanstalk",
+    "rarity": 4,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Snegurochka",
+    "rarity": 4,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Scavenger",
+    "rarity": 4,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Arene",
+    "rarity": 4,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Beehunter",
+    "rarity": 4,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Dobermann",
+    "rarity": 4,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Frostleaf",
+    "rarity": 4,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Mousse",
+    "rarity": 4,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Utage",
+    "rarity": 4,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Bubble",
+    "rarity": 4,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Dur-nar",
+    "rarity": 4,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Matterhorn",
+    "rarity": 4,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Cutter",
+    "rarity": 4,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Estelle",
+    "rarity": 4,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Jackie",
+    "rarity": 4,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Quartz",
+    "rarity": 4,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Windscoot",
+    "rarity": 4,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Cuora",
+    "rarity": 4,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Lutonada",
+    "rarity": 4,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Aciddrop",
+    "rarity": 4,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Caper",
+    "rarity": 4,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Meteor",
+    "rarity": 4,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Shirayuki",
+    "rarity": 4,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Akkord",
+    "rarity": 4,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Haze",
+    "rarity": 4,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Pudding",
+    "rarity": 4,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Myrrh",
+    "rarity": 4,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Roberta",
+    "rarity": 4,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "May",
+    "rarity": 4,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Pinecone",
+    "rarity": 4,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Vermeil",
+    "rarity": 4,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Greyy",
+    "rarity": 4,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Indigo",
+    "rarity": 4,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Chestnut",
+    "rarity": 4,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Purestream",
+    "rarity": 4,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Jaye",
+    "rarity": 4,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Rope",
+    "rarity": 4,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Verdant",
+    "rarity": 4,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Melantha",
+    "rarity": 3,
+    "elite": 1,
+    "level": 55
+  },
+  {
+    "name": "Kroos",
+    "rarity": 3,
+    "elite": 1,
+    "level": 55
+  },
+  {
+    "name": "Spot",
+    "rarity": 3,
+    "elite": 1,
+    "level": 1
+  },
+  {
+    "name": "Catapult",
+    "rarity": 3,
+    "elite": 0,
+    "level": 40
+  },
+  {
+    "name": "Cardigan",
+    "rarity": 3,
+    "elite": 0,
+    "level": 40
+  },
+  {
+    "name": "Lava",
+    "rarity": 3,
+    "elite": 0,
+    "level": 40
+  },
+  {
+    "name": "Hibiscus",
+    "rarity": 3,
+    "elite": 0,
+    "level": 20
+  },
+  {
+    "name": "Orchid",
+    "rarity": 3,
+    "elite": 0,
+    "level": 10
+  },
+  {
+    "name": "Fang",
+    "rarity": 3,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Vanilla",
+    "rarity": 3,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Popukar",
+    "rarity": 3,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Plume",
+    "rarity": 3,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Midnight",
+    "rarity": 3,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Beagle",
+    "rarity": 3,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Adnachiel",
+    "rarity": 3,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Ansel",
+    "rarity": 3,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Steward",
+    "rarity": 3,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Rangers",
+    "rarity": 2,
+    "elite": 0,
+    "level": 30
+  },
+  {
+    "name": "Yato",
+    "rarity": 2,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "12F",
+    "rarity": 2,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Noir Corne",
+    "rarity": 2,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Durin",
+    "rarity": 2,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "Lancet-2",
+    "rarity": 1,
+    "elite": 0,
+    "level": 30
+  },
+  {
+    "name": "THRM-EX",
+    "rarity": 1,
+    "elite": 0,
+    "level": 26
+  },
+  {
+    "name": "CONFESS-47",
+    "rarity": 1,
+    "elite": 0,
+    "level": 1
+  },
+  {
+    "name": "GALLUS²",
+    "rarity": 1,
+    "elite": 0,
+    "level": 1
+  }
+]
